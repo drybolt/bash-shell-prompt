@@ -34,7 +34,7 @@ alias k=kubectl
 complete -F __start_kubectl k
 
 # Git Auto-completion and shell prompt
-source ~/bin/git-completion.bash
+~/bin/git-completion.bash
 parse_git_branch() {
   git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
 }
