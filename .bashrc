@@ -1,8 +1,8 @@
-##### REFERENCEs #####
+##### REFERENCES #####
 # https://natelandau.com/my-mac-osx-bash_profile/
 
 
-##### EXPORTs #####
+##### EXPORT #####
 # export PS1="\e[1;30mmac \w \e[m || \e[1;32m \$(parse_git_branch) \e[m || \e[1;32m\n\$\e[m "
 export PS1="\e[1;30mmac \w \e[m\e[1;32m\$(parse_git_branch) \e[m \e[1;32m\n\$\e[m "
 export CLICOLOR=1
@@ -10,18 +10,18 @@ export LSCOLORS=ExFxBxDxCxegedabagacad
 export EDITOR="/usr/bin/vim"
 
 
-##### ALIASis #####
+##### ALIAS #####
 alias ls='ls -h'
 alias ll='ls -lh'
 alias la='ls -alh'
 
 
-##### PATHs #####
+##### PATH #####
 export PATH="$HOME/bin:$PATH"
 export PATH="$PATH:/usr/local/bin/"
 
 
-##### COMPLETIONs #####
+##### COMPLETION #####
 # awscli auto completion
 complete -C '/usr/local/bin/aws_completer' aws
 
